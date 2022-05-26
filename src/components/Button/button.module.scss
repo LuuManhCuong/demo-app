@@ -1,0 +1,39 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    max-width: 100%;
+    padding: 9px 16px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: 'ProximaNova', sans-serif;
+    cursor: pointer;
+    background-color: var(--white-color);
+    border: 1px solid transparent;
+    user-select: none;
+}
+
+// css cho nút primary
+.primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+
+    &:hover{
+        background-color: rgb(223, 149, 159);
+    }
+}
+
+// css cho nút outline
+.outline{
+    color: var(--primary-color);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    
+    &:hover{
+        background-color: rgb(111, 111, 111);
+    }
+}

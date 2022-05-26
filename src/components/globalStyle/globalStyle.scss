@@ -1,0 +1,60 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Rowdies:wght@300;400;700&display=swap');
+
+:root{
+    --primary-color: #ff2e43;
+    --secondary-color: #e14857;
+    --hover-color: rgb(130, 128, 128);
+    --black-color: #000;
+    --text-color: #111111;
+    --white-color: rgb(255, 255, 255);
+
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+}
+
+.body{
+    font-size: 14px;
+    line-height: 30px;
+    text-rendering: optimizeSpeed;
+
+}
+
+input, button, [tabindex] {
+    border: none;
+    outline: none;
+}
+
+a[href] {
+    color: white;
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.card_ft{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
