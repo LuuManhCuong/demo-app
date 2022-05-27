@@ -1,6 +1,8 @@
+@use '../../responsive/' as *;
+
 .wraper {
   position: relative;
-  width: 300px;
+  width: 290px;
   height: 204px;
   margin: 20px 6px;
   mix-blend-mode: multiply;
@@ -31,6 +33,10 @@
     font-size: 14px;
     padding: 10px;
     text-transform: capitalize;
+  }
+
+  @include mobile{
+    zoom: 0.5;
   }
 
   

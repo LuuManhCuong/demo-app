@@ -1,7 +1,13 @@
+@use '../../responsive/' as *;
+
 .nav_btn{
     color: var(--black-color);
     padding: 10px 20px;
     margin: 0 10px;
+    
+    @include mobile{
+        zoom: 0.6;
+    }
 }
 
 .active{

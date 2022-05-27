@@ -29,7 +29,7 @@ function Header() {
         <input type="text" placeholder="Search for motion trend..." />
       </div>
 
-      <div className="icon-nav">
+      <div className={cx('icon-nav')}>
         <FontAwesomeIcon
           className={cx("search_icon")}
           icon={faMagnifyingGlass}

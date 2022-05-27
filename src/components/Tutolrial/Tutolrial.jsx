@@ -22,7 +22,7 @@ function Tutolrial() {
 
       <div className={cx("content", "video")}>
         <img
-          className="imgVideo"
+          className={cx('img_video')}
           src="https://cdn.zeplin.io/5ea19ccec5f94454ebb7ad5c/assets/C7A28626-004F-45A9-9B53-5C56B3BC8A29-optimized.png"
           alt="video"
         />
